@@ -1,0 +1,160 @@
+# 
+Operador Aritmético:
+let num1 = 3
+let num2 = 2
+
+console.log(num1 + num 2)
+opeador aritmético de soma 
+opeador de subritração é só colocar console.log(num1 - num 2)
+opeador de multiplicação é só colocar console.log(num1 * num 2)
+opeado de divisão é só colocar console.log(num1 / num 2)
+
+let total = num1 + num2
+
+console.log(total)
+Está é a variavel total
+
+
+// ++ operador de incremento
+// -- opeador de redução
+...................................................
+Operador de Atribuição:
+let num1 = 3
+
+
+console.log(num1)
+
+let
+
+// num1 = num1 + 20 
+num1 += 20
+se eu comentar o número 20 o mais e igual, vou estar somando o numero com o tres e nisso dara o resultado de 23. O objetivo é reduzir o tamanho do meu codigo.
+..........................................................................................................
+Operador de Comparação:
+let num 1 = 3
+
+console.log(num1 > 0) true - verdadeiro
+console.log(num1 > 9) false - falso
+console.log(num1 < 0) false
+console.log(num1 >= 0) 
+console.log(num1 <= 0)
+console.log(num1 ===3)
+........................................
+Operador de igualdade:
+let num1 = 1
+let num2 = 1 
+
+console.log(num1 === num2) true
+
+let num1 = `1´
+let num2 = 1
+
+console.log(num1 === num2) false - ele deu esse resultado porque verifica o valor e o tipo de númeo, que no caso é um string number. strict é de tipo e valor.
+console.log(num1 == num2) true - um é igual a um. lose é so do valor.
+..........................................................................................................
+Operado ternario:
+let driver = 90
+let speed = driver > 110 ? `Above` : `Below` 
+console.log(speed) below porque noventa não é maior que cento e dez.
+se a velociade dele for maior que 110 se for verdadeiro retorna above e se for falso retorna below.
+..........................................................................................................
+Operador logico: &&and e ||or ou !not não
+let temIdadeMinima = true
+let temTituloEleitor = true
+
+let podevotar = TemIdadeMinina && temTituloEleitor
+console.log (podevotar) true porque tenho os dois
+
+
+let temIdadeMinima = true
+let temTituloEleitor = false
+
+let podevotar = TemIdadeMinina || temTituloEleitor
+console.log (´Pode votar:`+ podevotar) true porque eu a idade.
+
+let podeviajar = !podevotar
+console.log (podeviajar) true.
+..................................................................
+Operador logico com Strings:
+let corCliente = `white `
+let corEstoque = `Black`
+let corVendida = corCliente || corEstoque
+console.log (corVendida) = white o cliente definiu que queria a cor branca.
+
+let corCliente = undefined 
+let corEstoque = `Black`
+let corVendida = corCliente || corEstoque
+console.log (corVendida) = black o cliente não definiu a cor.
+.....................................................................................................
+If e Else:
+let driverSpeed = 80
+
+if (driverSpeed > 110) {
+    console.log(´Driving too fast´)
+}
+
+else if (driverSpeed > 40 && driverSpeed <= 110)
+console.log(´OK´)
+}
+
+
+else 
+console.log(`Driving too slow`)
+......................................................
+Switch e Case:
+let airport = `MCO`
+
+switch (airport) {
+case `MCO` :
+console.log(`Olando`)
+break
+case `JFK` :
+console.log(`John F. Kennedy`)
+break
+case `SEA` :
+console.log(`Seattle`)
+break
+default:
+console.log(`Unknown`)
+}
+............................................................
+For loop:
+for (i = 0;i < 10; i++)  {
+    console.log(`Numero` , i)
+}
+..................................................
+While loop:
+i = 1 
+while(i <= 10) {
+    console.log(`Numero` , i)
+    i++
+}
+.....................................................
+Do While loop:
+do {
+    console.log(`Numeo , i`)
+    i++
+} while (i<= 10)
+....................................................
+For In Loop:
+const myCar ={
+    model: `BMW` ,
+    year: 2023
+    km: 68000
+}
+for (let i in myCar)
+console.log(i, i myCar[i] )
+......................................................
+For of loop:
+const friends = [`Marcos`, `Ana`, `Jose` ]
+for (let i of friends)
+console.log(i)
+.....................................................
+Adicionando Break:
+let i = 1 
+while(i <= 10) {
+    if (i===8) break
+    console.log(`Numero` , i)
+    i++
+}
+....................................................
