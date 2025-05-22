@@ -1,0 +1,21 @@
+Arrays:
+const friends = ['Marcos', 'Ana' , 'Marcela']
+const num = [1, 2, 3, 4, true]
+console.log(friends)
+console.log(num)
+.....................................................
+Array de varios valore:
+const num = [7, 8, 9]
+num.push(10, 11, 12)
+
+num.unshift(1, 2, 3)
+
+num.slice(3, 0, 4, 5, 6, 7)
+
+console.log(num)
+......................................................
+Array primitiva:
+const num = [6, 7, 8, 9]
+
+console.log(num.indexOf (4))
+console.log(num.includes(4)) 
